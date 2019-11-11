@@ -29,9 +29,23 @@ In this project you will create a login page and request a token from the server
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain what a token is used for.
+
+Many services out in the wild require the client (our React app, for example) to provide proof that it’s authenticated with them. The server running these services can issue a JWT (JSON Web Token) as the authentication token, in exchange for correct login credentials
+
 - [ ] What steps can you take in your web apps to keep your data secure?
+
+Once we have the token, we can add two layers of protection to our app. One with protected routes, the other by sending an authentication header with our API calls.
+
 - [ ] Describe how web servers work.
+
+Computers can connect to the internet via the world wide web, locate a specific server computer through a URL and domain name, and retrieve information and/or resources from that server. The server itself is the physical and the software component of the overall server context.
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+[POST] 
+[GET] 
+[PUT]/[PATCH]
+[DELETE] 
 
 
 ## Project Set Up
